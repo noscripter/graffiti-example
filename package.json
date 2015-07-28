@@ -25,5 +25,8 @@
   },
   "devDependencies": {
     "@risingstack/graffiti-mongoose": "^1.0.4"
+  },
+  "engines": {
+    "iojs": "2.4.0"
   }
 }
