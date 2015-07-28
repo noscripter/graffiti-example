@@ -11,3 +11,6 @@ Example server for the graffiti GraphQL ORM
 **Example:**  
 
 `GET https://graffiti-example.herokuapp.com/graphql?q={users(age:19){name friends {name}}}`
+
+** Clickable:**  
+https://graffiti-example.herokuapp.com/graphql?q={users(age:19){name%20friends%20{name}}}
