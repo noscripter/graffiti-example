@@ -1,0 +1,29 @@
+{
+  "name": "graffiti-example",
+  "version": "1.0.0",
+  "description": "Example server for the graffiti GraphQL ORM",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RisingStack/graffiti-example.git"
+  },
+  "author": "RisingStack",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RisingStack/graffiti-example/issues"
+  },
+  "homepage": "https://github.com/RisingStack/graffiti-example#readme",
+  "dependencies": {
+    "@risingstack/graffiti": "^1.0.2",
+    "@risingstack/graffiti-mongoose": "^1.0.5",
+    "koa": "^0.21.0",
+    "mongoose": "^4.1.0"
+  },
+  "devDependencies": {
+    "@risingstack/graffiti-mongoose": "^1.0.4"
+  }
+}
