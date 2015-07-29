@@ -12,6 +12,10 @@ var UserSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
   }],
+  pets: [{
+    type: mongoose.Schema.Types.ObjectId,
+    ref: 'Pet'
+  }],
   createdAt: {
     type: Date,
     'default': Date.now

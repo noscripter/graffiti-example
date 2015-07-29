@@ -4,6 +4,8 @@ var graffiti = require('@risingstack/graffiti');
 var graffitiMongoose = require('@risingstack/graffiti-mongoose');
 
 var User = require('./models/user');
+var Pet = require('./models/pet');
+
 var app = koa();
 var port = process.env.PORT || 3000;
 
@@ -13,7 +15,7 @@ mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost/graphql');
 app.use(graffiti.koa({
   prefix: '/graphql',
   adapter: graffitiMongoose,
-  models: [User]
+  models: [User, Pet]
 }));
 
 // kick off server
