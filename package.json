@@ -20,7 +20,7 @@
   "dependencies": {
     "@risingstack/graffiti": "^1.0.2",
     "@risingstack/graffiti-mongoose": "^1.4.1",
-    "koa": "^0.21.0",
+    "koa": "^1.4.1",
     "mongoose": "^4.1.0"
   },
   "engines": {
