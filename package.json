@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "node --harmony server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -21,9 +23,11 @@
     "@risingstack/graffiti": "^1.0.2",
     "@risingstack/graffiti-mongoose": "^1.4.1",
     "koa": "^0.21.0",
-    "mongoose": "^4.1.0"
+    "mongoose": "^4.1.0",
+    "snyk": "^1.190.0"
   },
   "engines": {
     "iojs": "2.4.0"
-  }
+  },
+  "snyk": true
 }
