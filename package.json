@@ -19,7 +19,7 @@
   "homepage": "https://github.com/RisingStack/graffiti-example#readme",
   "dependencies": {
     "@risingstack/graffiti": "^1.0.2",
-    "@risingstack/graffiti-mongoose": "^1.4.1",
+    "@risingstack/graffiti-mongoose": "^5.0.4",
     "koa": "^0.21.0",
     "mongoose": "^4.1.0"
   },
